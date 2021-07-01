@@ -1,0 +1,12 @@
+갭마인더 데이터는
+국가별,연도별 기대수명/ 인구수 / 1인당GDP 등을 기록한 데이터 입니다.
+
+country     contunent     year     lifeExp    pop     gdpPercap
+
+
+country            : 국가
+contunent        : 대륙
+year                : 연도
+lifeExp             : 기대수명
+pop                : 인구수
+gdpPercap        : 1인당 GDP
