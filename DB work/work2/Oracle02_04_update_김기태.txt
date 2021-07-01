@@ -1,0 +1,15 @@
+SQL> update membert01
+  2  set mem_pwd='4321'
+  3  where mem_id='orange';
+
+1 row updated.
+
+SQL> select mem_pwd from membert01;
+
+MEM_PWD
+----------------------------------------
+4321
+1234
+1234
+1234
+1234

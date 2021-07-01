@@ -1,0 +1,22 @@
+[ 컬럼 추가 ]
+alter table [테이블명] add [컬럼명][타입][옵션];
+ex.) alter table memberT01 add mem_pay varchar2(15) not null default '0';
+
+[ 컬럼 삭제 ]
+alter table [테이블명] drop [컬럼명];
+ex.) alter table memberT01 drop mem_id;
+
+[컬럼명 변경 및 타입 변경 ]
+alter table [테이블명] change [컬럼명] [변경할컬럼명] varchar(12);
+ex.) ALTER TABLE memberT01 CHANGE mem_addr mem_address VARCHAR2(30);
+
+[ 컬럼 타입 수정 ]
+alter table [테이블명] modify [컬럼명] varchar(14);
+ex.) alter table memberT01 modify mem_addr VARCHAR2(30);
+
+[ 테이블명 수정 ]
+alter table [테이블명] rename [변경할테이블명];
+ex.) alter table memberT01 rename memberS01;
+
+[ 테이블 삭제 ]
+drop table [테이블명]

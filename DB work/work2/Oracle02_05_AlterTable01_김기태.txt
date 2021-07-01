@@ -1,0 +1,13 @@
+문제1. 컬럼 추가하기.
+SQL> alter table membert01
+  2  add mem_notice varchar2(30);
+
+문제2. 컬럼 수정하기.
+SQL> alter table membert01
+  2  modify mem_notice varchar2(20);
+
+문제3.컬럼 삭제하기.
+SQL> alter table membert01
+  2  drop column mem_notice;
+
+문제4.어드레스컬럼 이름 변경.

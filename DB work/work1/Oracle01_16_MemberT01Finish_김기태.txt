@@ -1,0 +1,28 @@
+SQL> create table memberT01 (
+  2  mem_name VARCHAR(20),
+  3  mem_id VARCHAR(20),
+  4  mem_pwd VARCHAR(20),
+  5  mem_email VARCHAR(20),
+  6  mem_phone VARCHAR(20),
+  7  mem_addr VARCHAR(20)
+  8  );
+
+Table created.
+
+SQL> selct * from tab;
+SP2-0734: unknown command beginning "selct * fr..." - rest of line ignored.
+SQL> select * from tab;
+
+TNAME                                                        TABTYPE         CLUSTERID
+------------------------------------------------------------ -------------- ----------
+MEMBERT01                                                    TABLE
+
+SQL> desc membert01
+ Name                                                                                                              Null?    Type
+ ----------------------------------------------------------------------------------------------------------------- -------- ----------------------------------------------------------------------------
+ MEM_NAME                                                                                                                  VARCHAR2(20)
+ MEM_ID                                                                                                                    VARCHAR2(20)
+ MEM_PWD                                                                                                                   VARCHAR2(20)
+ MEM_EMAIL                                                                                                                 VARCHAR2(20)
+ MEM_PHONE                                                                                                                 VARCHAR2(20)
+ MEM_ADDR                                                                                                                  VARCHAR2(20)

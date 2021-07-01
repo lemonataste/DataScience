@@ -1,0 +1,20 @@
+SQL> delete from membert01
+  2  where mem_id = 'Orange';
+
+1 row deleted.
+
+SQL> /
+
+0 rows deleted.
+
+SQL> select * from membert01;
+
+MEM_NAME                                 MEM_ID                                   MEM_PWD                                 MEM_EMAIL
+---------------------------------------- ---------------------------------------- ---------------------------------------- ----------------------------------------
+MEM_PHONE                                MEM_ADDR
+---------------------------------------- ----------------------------------------
+오렌지                                   Orange1                                  1234                                    Orange@test.com
+044                                      홍익대학교
+
+오렌지                                   Orange2                                  1234                                    Orange@test.com
+044                                      홍익대학교

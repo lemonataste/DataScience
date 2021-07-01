@@ -1,0 +1,19 @@
+sqlplus 계정/pwd
+---------------------------------
+cl scr (클리어)
+
+show user (접속 유저명)
+
+show pagesize
+
+show linesize
+
+** 접속 상태에서 계정 변경 
+conn 계정
+비밀번호 
+
+or
+
+conn 계정/비번
+
+conn /as sysdba (관리자계정)
